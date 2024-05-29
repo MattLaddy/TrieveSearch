@@ -1,0 +1,139 @@
+body {
+    background-color: #2E2E2E; /* Blackish grey color */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.content {
+    position: absolute;
+    top: 20px; /* Offset from the top */
+    left: 20px; /* Offset from the left */
+    text-align: left;
+}
+
+.search-bar {
+    width: 100%; /* Half the page width */
+    padding: 10px; /* Padding inside the search bar */
+    border: 1px solid #8f8c8c; /* Thin grey border */
+    border-radius: 25px; /* Rounded corners */
+    background-color: #3b3939; /* Same color as the background */
+    color: white; /* Text color inside the search bar */
+    font-size: 16px; /* Font size */
+    box-sizing: border-box; /* Ensures padding and width work as expected */
+    outline: none; /* Remove default outline on focus */
+}
+
+.search-bar::placeholder {
+    color: #a99f9f; /* Lighter grey for placeholder text */
+}
+
+h1 {
+    font-size: 2.5em; 
+}
+
+p {
+    font-size: 1.2em; 
+}
+
+
+.link-box {
+    padding: 10px;
+    background-color: #a239f3;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    text-align: center;
+    line-height: 100px; /* Center content vertically */
+    margin-right: 10px;
+}
+
+.link-box:hover {
+    background-color: #800080; /* Darker purple on hover */
+}
+
+.link-container,
+.search-container {
+    margin-bottom: 5px; /* Add margin between the link and search bar */
+}
+
+.card {
+    width: 700px; /* Set a fixed width for all cards */
+    height: 80px; /* Set a fixed height for all cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #5a5454;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.card a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+.github-link {
+    text-decoration: none;
+}
+
+/* Add some basic styling for the search container */
+.search-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    gap: 10px; /* Adjust the gap value to add space between elements */
+}
+
+.search-bar {
+    width: 300px; /* Set a fixed width for the search bar */
+    padding: 10px; /* Padding inside the search bar */
+    border: 1px solid #8f8c8c; /* Thin grey border */
+    border-radius: 25px; /* Rounded corners */
+    background-color: #3b3939; /* Same color as the background */
+    color: white; /* Text color inside the search bar */
+    font-size: 16px; /* Font size */
+    box-sizing: border-box; /* Ensures padding and width work as expected */
+    outline: none; /* Remove default outline on focus */
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap value to add space between elements */
+    margin-top: 10px; /* Add margin to separate from the search bar */
+}
+
+.filter-label {
+    margin-right: 5px; /* Add margin between "Type:" and the select dropdown */
+}
+
+#filter {
+    width: 100px; /* Set a smaller width for the filter dropdown */
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #2E2E2E; /* Set this to your desired background color */
+    color: white;
+    border: none; /* Remove the default border */
+    outline: none; /* Remove the default outline */
+}
+
+select option {
+    background-color: #1d1919; /* Ensure the options have the same background color */
+    color: black; /* You can change this if you want white text for options as well */
+}
+
+/* Optional: If you want the text inside the options to also be white */
+select option {
+    background-color: #f0f0f0; /* Ensure the options have the same background color */
+    color: white;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+}
