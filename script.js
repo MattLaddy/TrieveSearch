@@ -21,7 +21,7 @@ function searchChunkAPI(searchContent, filter) {
         "Content-Type": "application/json",
         "TR-Organization": "290c4e97-2332-4376-a254-5b063abfcb5f",
         "TR-Dataset": "bfd9f0a5-335b-4501-9cb2-3ea3c23de3c5",
-        "Authorization": "process.env.API_KEY",
+        "Authorization": "tr-E4XukxDqBIb5XcWjHMlTBIaLNnCAqAnN",
     };
 
     var requestBody = {
